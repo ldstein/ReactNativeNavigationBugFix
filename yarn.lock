@@ -3607,7 +3607,7 @@
   dependencies:
     "source-map" "^0.7.3"
 
-"hoist-non-react-statics@3.x.x":
+"hoist-non-react-statics@3.3.2", "hoist-non-react-statics@3.x.x":
   "integrity" "sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw=="
   "resolved" "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz"
   "version" "3.3.2"
@@ -5493,7 +5493,14 @@
   "resolved" "https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-2.0.0.tgz"
   "version" "2.0.0"
 
-"react-native-navigation@^7.37.1":
+"react-native-navigation-hooks@^6.3.0":
+  "integrity" "sha512-fvKYYIEIHROnqLDYVZtyojXNeJ/h0LBx4OFBBtPxJpVM2wvVj4vFO0ABU16i0SGwStGs32iLKdcgkB5qgAv7kA=="
+  "resolved" "https://registry.npmjs.org/react-native-navigation-hooks/-/react-native-navigation-hooks-6.3.0.tgz"
+  "version" "6.3.0"
+  dependencies:
+    "hoist-non-react-statics" "3.3.2"
+
+"react-native-navigation@^7.37.1", "react-native-navigation@>=6.5.0":
   "integrity" "sha512-3LM5tawVwfo8iNwH+caAt2jI+9lGVIeXKv9jmRp7esXz3DEypi8yfKBVjz/IDsCo6VBjAwocw1f2EuIXxRyiuA=="
   "resolved" "https://registry.npmjs.org/react-native-navigation/-/react-native-navigation-7.37.1.tgz"
   "version" "7.37.1"
@@ -5504,7 +5511,7 @@
     "react-lifecycles-compat" "2.0.0"
     "tslib" "1.9.3"
 
-"react-native@*", "react-native@0.72.6":
+"react-native@*", "react-native@>=0.59.0", "react-native@0.72.6":
   "integrity" "sha512-RafPY2gM7mcrFySS8TL8x+TIO3q7oAlHpzEmC7Im6pmXni6n1AuufGaVh0Narbr1daxstw7yW7T9BKW5dpVc2A=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.72.6.tgz"
   "version" "0.72.6"
@@ -5568,7 +5575,7 @@
     "react-shallow-renderer" "^16.15.0"
     "scheduler" "^0.23.0"
 
-"react@*", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.2.0", "react@18.2.0":
+"react@*", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>=16.8.3", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
